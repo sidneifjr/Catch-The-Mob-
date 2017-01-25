@@ -1,8 +1,8 @@
-# Catch-The-Mob-
+## Catch The Mob!
 
-Alpha version, currently in development.
+Currently, alpha version, under constant development.
 
-## Catch-The-Mob-
+First release today!
 
 "Catch the monster and his friends as quickly as you can....or he is going to wreak havoc!"
 
