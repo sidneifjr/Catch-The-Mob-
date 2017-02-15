@@ -8,13 +8,11 @@ var ctx = canvas.getContext('2d');
 
 // Usar futuramente para adaptar à janela do usuário
 
-var width = window.innerWidth;
+canvas.width = 1040;
 
-var height = window.innerHeight;
+canvas.height = 620;
 
-canvas.width = 1100;
-
-canvas.height = 640;
+// criar uma função (if the window height or width changes, the value of innerHeight or innerWidth will get updated, and it will adapt to the new size.)
 
 document.body.appendChild(canvas);
 
@@ -61,7 +59,7 @@ monsterImage.src = 'img/icegigas.png';
 
 var hero = {
 
-	speed: 280
+	speed: 300
 
 };
 
@@ -133,7 +131,7 @@ var update = function update(modifier) {
 	}
 
 	// Checa se os personagens se encostaram
-	if (hero.x <= monster.x + 32 && monster.x <= hero.x + 32 && hero.y <= monster.y + 32 && monster.y <= hero.y + 32) {
+	if (hero.x <= monster.x + 64 && monster.x <= hero.x + 32 && hero.y <= monster.y + 94 && monster.y <= hero.y + 48) {
 
 		++monstersCaught;
 		reset();
