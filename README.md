@@ -2,7 +2,7 @@
 
 Currently, alpha version, under constant development.
 
-First release today!
+First release on 25/Jan/2017.
 
 "Catch the monster and his friends as quickly as you can....or he is going to wreak havoc!"
 
