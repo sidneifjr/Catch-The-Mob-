@@ -140,6 +140,9 @@ var update = function update(modifier) {
 
 	}
 
+	// Mostra no console a posição do herói (x, y) - pode ser usado para ajudar na delimitação do mesmo na tela
+	console.log("Position("+hero.x.toFixed(1)+", "+hero.y.toFixed(1)+")");
+
 };
 
 // Renderização

@@ -20,6 +20,14 @@ canvas {
 
 	display: block;
 
+	/* Centralizando o canvas na tela */
+	margin-left: calc((100% - 1136px)/2);
+	
+	/* Outras frescuras de estilo */
+	margin-top: 5px;
+	border-radius: 10px;
+	border: 5px solid #000000;
+
 }
 
 h1 {
